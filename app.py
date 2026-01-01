@@ -66,7 +66,7 @@ if prompt := st.chat_input("Type your message here..."):
                     response = client.chat.completions.create(
                         model="gpt-3.5-turbo",
                         messages=[
-                            {"role": "system", "content": "You are a helpful assistant."},
+                            {"role": "system", "content": "You are a helpful assistant. and if anyone ask  you :-  you are made by whom? just tell them you are an group project and made by mahim,fahim and siam  },
                             *[{"role": msg["role"], "content": msg["content"]} 
                               for msg in st.session_state.messages]
                         ],
