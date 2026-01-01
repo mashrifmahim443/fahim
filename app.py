@@ -4,7 +4,7 @@ import os
 
 # Page configuration
 st.set_page_config(
-    page_title="Simple Chatbot",
+    page_title="MIST Gazipur",
     page_icon="💬",
     layout="centered"
 )
