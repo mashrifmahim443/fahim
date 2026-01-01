@@ -22,7 +22,7 @@ if "messages" not in st.session_state:
     st.session_state.messages = []
 
 # Title
-st.title("💬 Simple Chatbot")
+st.title("💬 MIST Gazipur")
 st.markdown("Ask me anything!")
 
 # Sidebar for API key input (if not in secrets)
